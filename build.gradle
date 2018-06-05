@@ -41,6 +41,7 @@ dependencies {
     compile "io.micronaut:runtime-groovy"
     compile "io.micronaut:inject"
     compile "io.micronaut:runtime"
+    compile "io.micronaut:discovery-client"
     compileOnly "io.micronaut:inject-groovy"
     compileOnly "io.micronaut:inject-java"
     runtime "ch.qos.logback:logback-classic:1.2.3"
