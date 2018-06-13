@@ -1,6 +1,5 @@
 package com.vincit.micronautdemo
 
-import groovy.transform.CompileStatic;
 import io.micronaut.context.ApplicationContext
 import io.micronaut.runtime.server.EmbeddedServer
 import io.micronaut.http.client.RxHttpClient
