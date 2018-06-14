@@ -1,7 +1,7 @@
-#Micronaut demoapp
+# Micronaut demoapp
 
-##Preconditions
-Intall consul dockerimage:
+## Preconditions
+Install consul dockerimage:
 
 `docker pull consul`
 
@@ -9,7 +9,7 @@ Run it:
 
 `docker run --rm -d --name=dev-consul -e CONSUL_BIND_INTERFACE=lo -e CONSUL_UI_BETA=true --net=host consul`
 
-##Starting
+## Starting
 Build image:
 
 `gradle dockerBuildImage`
